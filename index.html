@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Animation guidelines</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css&lang=js"></script>
+  <script src="js/all.js"></script>
+
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body data-spy="scroll" data-target="#navbar-example">
+  <header>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand pull-left" href="#"></a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><i class="fa fa-search"></i></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Marco <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="row">
+      <div class="header-title col-xs-12">
+        <div class="pull-left menu-icon"><i class="fa fa-bars"></i></div>
+        <div class="pull-left subtitle">My GDEG</div>
+      </div>
+    </div>
+  </header>
+
+  <div class="main-wrap">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="menu-wrap col-xs-3">
+          <div id="navbar-example" class="menu-second">
+            <ul class="nav nav-pills nav-stacked">
+              <li role="presentation" class="active"><a href="#1">Home card effects</a></li>
+              <li role="presentation"><a href="#2">Button effects</a></li>
+              <li role="presentation"><a href="#3">Hockey card effects</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="main-container col-xs-9">
+          <div class="row">
+            <div id="1" class="col-xs-12">
+              <h1 class="title">CSS Card Hover</h1>
+              <ul id="myTabs" class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#result" aria-controls="home" role="tab" data-toggle="tab">Result</a></li>
+                <li role="presentation"><a href="#html" aria-controls="profile" role="tab" data-toggle="tab">Html</a></li>
+                <li role="presentation"><a href="#css" aria-controls="messages" role="tab" data-toggle="tab">Css</a></li>
+                <li role="presentation"><a href="#js" aria-controls="settings" role="tab" data-toggle="tab">Javascript</a></li>
+              </ul>
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="result">
+                  <div class="feature-cards-double">
+                    <a href="#"></a>
+                    <div class="feature-cards-double-img-wrap"><img src="images/1.jpg" /></div>
+                    <h1 class="text-center">Title</h1>
+                    <p class="text-center">Link</p>
+                  </div>
+                  <div class="feature-cards-double">
+                    <a href="#"></a>
+                    <div class="feature-cards-double-img-wrap"><img src="images/2.jpg" /></div>
+                    <h1 class="text-center">Title</h1>
+                    <p class="text-center">Link</p>
+                  </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="html">
+                  <pre class="prettyprint pre-scrollable">
+.menu-second a {
+  color: #000!important;
+}
+.menu-second li:hover a {
+  border-right: 5px solid #d9d9d9;
+  background: transparent!important;
+  border-radius: 0;
+}
+.menu-second li.active a {
+  border-right: 5px solid #0286cd;
+  background: transparent!important;
+  border-radius: 0;
+  color: #0286cd!important;
+  font-family: adiBlack;
+}
+.menu-second a {
+  color: #000!important;
+}
+.menu-second li:hover a {
+  border-right: 5px solid #d9d9d9;
+  background: transparent!important;
+  border-radius: 0;
+}
+.menu-second li.active a {
+  border-right: 5px solid #0286cd;
+  background: transparent!important;
+  border-radius: 0;
+  color: #0286cd!important;
+  font-family: adiBlack;
+}
+                  </pre>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="css">
+                  <pre class="pre-scrollable">css goes here</pre>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="js">
+                  <pre class="pre-scrollable">js goes here</pre>
+                </div>
+              </div>
+            </div>
+
+            <div id="2" class="col-xs-12">
+              <h1 class="title">Button effects</h1>
+              <h2 class="title">Call to actions</h2>
+              <ul id="myTabs2" class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#result2" aria-controls="home" role="tab" data-toggle="tab">Result</a></li>
+                <li role="presentation"><a href="#html2" aria-controls="profile" role="tab" data-toggle="tab">Html</a></li>
+                <li role="presentation"><a href="#css2" aria-controls="messages" role="tab" data-toggle="tab">Css</a></li>
+                <li role="presentation"><a href="#js2" aria-controls="settings" role="tab" data-toggle="tab">Javascript</a></li>
+              </ul>
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="result2">
+                  <button class="button button-atb">Add to bag</button>
+                  <button class="button bp-custom">Customise</button>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="html2">
+                  <pre class="pre-scrollable">html goes here</pre>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="css2">
+                  <pre class="pre-scrollable">css goes here</pre>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="js2">
+                  <pre class="pre-scrollable">js goes here</pre>
+                </div>
+              </div>
+            </div>
+
+            <div id="3" class="col-xs-12">
+              <h1 class="title">CSS Card Hover</h1>
+              <ul id="myTabs3" class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#result3" aria-controls="home" role="tab" data-toggle="tab">Result</a></li>
+                <li role="presentation"><a href="#html3" aria-controls="profile" role="tab" data-toggle="tab">Html</a></li>
+                <li role="presentation"><a href="#css3" aria-controls="messages" role="tab" data-toggle="tab">Css</a></li>
+                <li role="presentation"><a href="#js3" aria-controls="settings" role="tab" data-toggle="tab">Javascript</a></li>
+              </ul>
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="result3">
+                  <div class="innercard">
+                    <a href="#"></a>
+                    <div class="innercard-img-wrap"><img src="images/product.jpg" /></div>
+                    <div class="text">
+                      <h1>Title</h1>
+                      <h2>Subtitle</h2>
+                      <h3>€120</h3>
+                      <button class="button button-atb">Add to bag</button>
+                      <button class="button bp-custom">Customise</button>
+                    </div>
+                  </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="html3">
+                  <pre class="pre-scrollable">html goes here</pre>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="css3">
+                  <pre class="pre-scrollable">css goes here</pre>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="js3">
+                  <pre class="pre-scrollable">js goes here</pre>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
